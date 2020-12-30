@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myAppTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/myActionStyle</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="myActionStyle" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/White</item>
+        <item name="android:backgroundStacked">@color/White</item>
+        <item name="android:titleTextStyle">@style/actionBarTitle</item>
+    </style>
+
+    <style name="actionBarTitle">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="TimeLineItem">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+</resources>
