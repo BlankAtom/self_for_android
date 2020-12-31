@@ -7,19 +7,24 @@
 
     <fragment
             android:id="@+id/navigation_home"
-            android:name="com.example.myapplication.ui.home.HomeFragment"
+            android:name="luck7.com.self.ui.home.HomeFragment"
             android:label="@string/title_home"
             tools:layout="@layout/fragment_home"/>
 
     <fragment
             android:id="@+id/navigation_me"
-            android:name="com.example.myapplication.ui.me.MeFragment"
+            android:name="luck7.com.self.ui.me.MeFragment"
             android:label="@string/title_me"
             tools:layout="@layout/fragment_me"/>
 
     <fragment
             android:id="@+id/navigation_plan"
-            android:name="com.example.myapplication.ui.plan.PlanFragment"
+            android:name="luck7.com.self.ui.plan.PlanFragment"
             android:label="@string/title_plan"
             tools:layout="@layout/fragment_plan"/>
+    <fragment
+            android:id="@+id/navigation_ground"
+            android:name="luck7.com.self.ui.ground.GroundFragment"
+            android:label="@string/ground_title"
+            tools:layout="@layout/fragment_ground"/>
 </navigation>

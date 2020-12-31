@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical"
+    tools:context="lucky7.com.self.LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="方正粗黑宋体简体"
+        android:text="Self"
+        android:textColor="#ffffff"
+        android:textSize="52dp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="方正粗黑宋体简体"
+        android:text="让热爱更热爱"
+        android:textColor="#ffffff"
+        android:textSize="34dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="258dp"
+        android:layout_height="36dp"
+        android:text="手机号登录"
+        android:textAlignment="center"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="174dp"
+        android:textColor="#6babe5"
+        android:textSize="16dp"
+        android:background="@drawable/btn_style1"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="258dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:text="立即体验"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:background="@drawable/btn_style2"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="方正粗黑宋体简体"
+        android:text="登录代表同意《用户协议》《隐私政策》"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="208dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/wechat" />
+
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/qq" />
+
+        <Button
+            android:id="@+id/btn_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/weibo" />
+    </LinearLayout>
+
+</LinearLayout>

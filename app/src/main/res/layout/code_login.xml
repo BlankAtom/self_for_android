@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="lucky7.com.self.PNLoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/weibo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorWhite">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pn_close"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/x" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="16dp"
+                android:text="手机号登录"
+                android:textColor="@color/colorBlack"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/btn_pn_password"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/btn_style5"
+                android:textSize="12dp"
+                android:textColor="@color/colorBlack"
+                android:text="密码登录" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:text="请输入验证码"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/colorWechat1"
+            android:textSize="12dp"
+            android:text="已发送至+86 189****3265"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="104dp"
+            android:background="@drawable/btn_style5"
+            android:textSize="14dp"
+            android:text="获取"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

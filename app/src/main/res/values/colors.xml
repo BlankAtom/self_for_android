@@ -8,7 +8,17 @@
     <color name="colorLightBlue">#c4e0f9</color>
     <color name="White">#FFFFFF</color>
     <color name="Black">#000000</color>
-
+    <color name="colorBack">#5aaef7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWechat">#6dcb99</color>
+    <color name="colorWechat1">#b2b2b2</color>
+    <color name="colorWechat2">#d2d2d2</color>
+    <color name="colorQQ">#6ecbf4</color>
+    <color name="colorQQ1">#e5e5e5</color>
+    <color name="colorweibo">#f8ab60</color>
+    <color name="colorweibo1">#eeeeee</color>
+    <color name="colorweibo2">#d9d9d9</color>
     <color name="content_gray">#666667</color>
     <color name="content_bold">#aaaaab</color>
 </resources>

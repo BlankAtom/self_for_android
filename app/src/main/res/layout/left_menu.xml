@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        android:background="@drawable/menuback">
+
+        <Button
+            android:layout_width="100dp"
+            android:background="@drawable/photo"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人简介"
+                android:textSize="24dp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="这个人很懒什么都没留下。。。"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_menu"
+        android:textSize="28dp"
+        android:text="昵称"/>
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_menu"
+        android:textSize="28dp"
+        android:text="性别"/>
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_menu"
+        android:textSize="28dp"
+        android:text="账号"/>
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_menu"
+        android:textSize="28dp"
+        android:text="设置"/>
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_menu"
+        android:textSize="28dp"
+        android:text="关于"/>
+
+</LinearLayout>

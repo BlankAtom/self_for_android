@@ -13,11 +13,12 @@
     <string name="home_non_complete">未完成计划数</string>
     <string name="home_complete">已完成计划数</string>
     <string name="home_non_complete_num">2</string>
-    <string name="home_complete_num">2</string>
+    <string name="home_complete_num">29</string>
     <string name="me_week_name">周日</string>
     <string name="me_day_num">08</string>
     <string name="me_month_signed">本月已签2次</string>
-
+    <string name="ground_title">Ground</string>
+    <string name="ground_default_show_text">这是广场</string>
     <string name="me_default_thing_title">2020年10月24日</string>
     <string name="me_default_thing_body">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</string>
     <string name="me_default_thing_date">2020–10–24 21:00</string>

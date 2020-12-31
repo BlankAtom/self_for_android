@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorweibo1"
+    android:orientation="vertical"
+    tools:context=".WeiBoLoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/weibo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorWhite">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_weibo_close"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#00000000"
+                android:text="取消"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="16dp"
+                android:text="微博登录"
+                android:textColor="@color/colorBlack"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/wb" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/arrows" />
+
+            <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/selficon" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="-242dp"
+            android:layout_marginTop="96dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/head_photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="rourou"
+                android:textColor="@color/colorBlack"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:background="#00000000"
+                android:text="切换账号"
+                android:textColor="@color/colorweibo"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_weibo_admit"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_style_weibo"
+        android:text="确认"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:text="该应用将访问你的公开资料，好友信息。"
+        android:textColor="@color/colorweibo2"
+        android:textSize="14dp" />
+
+
+</LinearLayout>

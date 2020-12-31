@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.myapplication">
+          package="luck7.com.self">
 
     <application
             android:allowBackup="true"
@@ -9,19 +9,26 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/myAppTheme">
-        <activity
-                android:name=".MainActivity"
-                android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+        <activity android:name="luck7.com.self.ui.plan.AddPlanActivity" android:label="Add Task">
+
+        </activity>
+
+        <activity android:name="luck7.com.self.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="luck7.com.self.LoginActivity" />
+        <activity android:name="luck7.com.self.WeChatLoginActivity" />
+        <activity android:name="luck7.com.self.QQLoginActivity" />
+        <activity android:name="luck7.com.self.WeiBoLoginActivity" />
+        <activity android:name="luck7.com.self.PNLoginActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.home.HomePlanViewActivity"/>
 
-        <activity android:name=".ui.plan.AddPlanActivity" android:label="Add Task">
-
-        </activity>
     </application>
 
 </manifest>

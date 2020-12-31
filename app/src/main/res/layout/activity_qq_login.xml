@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".QQLoginActivity">
+
+    <Button
+        android:id="@+id/btn_qq_close"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="28dp"
+        android:background="#00000000"
+        android:text="取消"
+        android:textColor="@color/colorBlack"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="28dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:src="@drawable/selficon"
+            android:layout_height="24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="4dp"
+            android:text="self"
+            android:textSize="14dp"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="28dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:text="申请获取你的QQ头像、昵称、地区和性别信息"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="28dp"
+        android:textColor="@color/colorWechat1"
+        android:textSize="14dp"
+        android:text="你可选择使用不同的个人信息登录"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="28dp">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:src="@drawable/head_photo"
+            android:layout_height="44dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:layout_width="36dp"
+                android:textSize="16dp"
+                android:text="肉肉"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="-36dp"
+                android:layout_marginTop="20dp"
+                android:textSize="14dp"
+                android:text="QQ个人信息"
+                android:textColor="@color/colorWechat2"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:text="√"
+            android:textColor="@color/colorQQ"
+            android:textSize="32dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="28dp">
+
+        <Button
+            android:layout_width="44dp"
+            android:textSize="32dp"
+            android:background="@drawable/btn_style3"
+            android:textColor="@color/colorWechat2"
+            android:text="+"
+            android:layout_height="44dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-4dp"
+            android:text="新建用户信息"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_qq_admit"
+        android:layout_width="304dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="28dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_style_qq"
+        android:text="QQ授权登录"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/btn_qq_other"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="104dp"
+        android:textColor="@color/colorQQ"
+        android:background="#00000000"
+        android:text="使用其他QQ账号登录"
+        android:textSize="12dp"/>
+
+</LinearLayout>
