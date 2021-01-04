@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
     android:orientation="vertical"
-    tools:context="lucky7.com.self.PNLoginActivity">
+    tools:context=".PNLoginActivity">
 
-    <android.support.v7.widget.Toolbar
+
+    <Toolbar
         android:id="@+id/weibo_toolbar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
@@ -36,7 +37,7 @@
                 android:textSize="22dp" />
 
         </LinearLayout>
-    </android.support.v7.widget.Toolbar>
+    </Toolbar>
 
     <TextView
         android:layout_width="wrap_content"
@@ -95,13 +96,14 @@
         android:background="@android:color/darker_gray"  />
 
     <Button
+
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
         android:layout_marginTop="32dp"
         android:background="@drawable/btn_style4"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/colorWhite"
-        android:text="下一步"/>
+        android:text="@string/phone_btn_next"/>
 
 </LinearLayout>

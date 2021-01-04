@@ -28,6 +28,7 @@
         <activity android:name="luck7.com.self.PNLoginActivity" />
         <activity android:name=".MainActivity"/>
         <activity android:name=".ui.home.HomePlanViewActivity"/>
+        <activity android:name=".ui.me.MeAddActivity"/>
 
     </application>
 

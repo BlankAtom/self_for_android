@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,6 +29,15 @@ public class PNLoginActivity extends AppCompatActivity {
         setContentView(R.layout.pn_login);
 
         setSpinner();
+
+        Button btn = findViewById(R.id.btn_pn_close);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
 
 

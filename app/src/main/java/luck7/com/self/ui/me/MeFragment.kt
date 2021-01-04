@@ -4,6 +4,7 @@
  * */
 package luck7.com.self.ui.me
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -15,6 +16,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import luck7.com.self.R
+import luck7.com.self.ui.home.HomePlanViewActivity
 
 class MeFragment : Fragment() {
     private lateinit var meViewModel: MeViewModel
@@ -66,7 +68,7 @@ class MeFragment : Fragment() {
     }
 
     private fun onAddClick() {
-
+        startActivity(Intent(this.activity, MeAddActivity::class.java))
     }
     private fun onTestClick() {
         meViewModel.getThings().add(MeThingItem("2020-12-12", "红红火火恍恍惚惚", "2020年12月12日"))
